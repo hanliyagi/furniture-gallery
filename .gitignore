@@ -1,0 +1,15 @@
+node_modules
+dist
+.DS_Store
+.previous-git-history-backup/
+.superpowers/
+*.local
+*.tsbuildinfo
+catalog-output/
+
+# Local duplicate files created by the desktop file manager
+CATALOG_AUDIT 2.md
+CHANGELOG 2.md
+src/data/catalogChangelog 2.ts
+src/three/catalogAudit 2.ts
+src/three/catalogAudit.test 2.ts
