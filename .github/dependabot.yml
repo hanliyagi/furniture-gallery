@@ -4,6 +4,12 @@ updates:
     directory: /
     schedule:
       interval: weekly
+    # TypeScript 7 is not yet supported by the project's typescript-eslint release.
+    # Remove this temporary rule once upstream support is available.
+    ignore:
+      - dependency-name: typescript
+        update-types:
+          - version-update:semver-major
   - package-ecosystem: github-actions
     directory: /
     schedule:
